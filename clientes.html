@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <title>Alquiler Juegos</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="js/funciones.js"></script>
+    </head>
+    <body>
+        
+            <h1>Información sobre los Clientes</h1>
+        <div>
+            <input type="number" id="id" placeholder="id">
+            <input type="text" id="name" placeholder="name">
+            <input type="text" id="email" placeholder="email">
+            <input type="number" id="age" placeholder="age">
+        </div>
+        <button onclick="leerClientes()">Consultar</button>
+        <button onclick="agregarCliente()">Agregar</button>
+        <button onclick="actualizarCliente()">Actualizar</button>
+
+        <pre><div id="listaClientes">
+            
+        </div></pre>
+
+        <pre><a href="juegos.html">Juegos</a></pre>
+    </body>
+</html>
